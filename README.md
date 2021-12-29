@@ -9,4 +9,4 @@ Course/s Table
 
 |Semester | Name | Problem Link | Difficulty | Solution | 
 | :-------- | :-----------------: | ---------- | -------------- | --------- | 
-| [1](IIITH-Resources/tree/main/Semester-1) | Hello World | [Click Me](https://www.hackerrank.com/challenges/py-hello-world/problem) | Easy | [Here](Introduction/Hello_World.py) | 
+| [1](https://github.com/bhavberi/IIITH-Resources/tree/main/Semester-1) | Hello World | [Click Me](https://www.hackerrank.com/challenges/py-hello-world/problem) | Easy | [Here](Introduction/Hello_World.py) | 
