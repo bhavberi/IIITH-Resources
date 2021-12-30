@@ -11,6 +11,6 @@ Practical : 0
 
 #### Grading Scheme
 
-![Grades Scheme](/Grading/Grades_Scheme.png)
+![Grades Scheme](./Grading/Grades_Scheme.png)
 
-![Testing Scheme](/Grading/Testing_Scheme.png)
+![Testing Scheme](./Grading/Testing_Scheme.png)
