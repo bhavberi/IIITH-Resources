@@ -77,6 +77,16 @@
             <article id="non-academic">
                 <h2 class="major">Non-Academic Resources</h2>
                 <include src="./Web/non_academic.html"></include>
+                <include src="./Web/clubs.html"></include>
+                <div id="PDFViewer" style="display: none;">
+                    <hr style="border-top: 3px dashed red;">
+                    <object data="./Other_Good_Resources/Facebook_links_clubs.pdf" type="application/pdf" width="100%"
+                        height="800" id="PDFViewerObject">
+                        <iframe src="./Web/assets/ViewerJS/#../../../Other_Good_Resources/Facebook_links_clubs.pdf"
+                            width='100%' height='800' allowfullscreen webkitallowfullscreen id="PDFViewerIFrame">
+                        </iframe>
+                    </object>
+                </div>
             </article>
 
             <!-- External-->
@@ -135,6 +145,20 @@
     <script src="assets/js/main.js"></script>
     <script src="https://unpkg.com/htmlincludejs"></script>
     <!---<include src="./trial.html"></include>--->
+    <script>
+        function pdffn(name1, name2) {
+            var x = document.getElementById("PDFViewerObject");
+            var y = document.getElementById("PDFViewerIFrame");
+            x.data = name1;
+            y.src = name2;
+            if (document.getElementById("PDFViewer").style.display === "none") {
+                document.getElementById("PDFViewer").style.display = "block";
+            }
+            else if (document.getElementById("PDFViewer").style.display === "block") {
+                document.getElementById("PDFViewer").style.display = "none";
+            }
+        }
+    </script>
 
 </body>
 
