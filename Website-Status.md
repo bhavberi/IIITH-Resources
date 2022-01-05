@@ -11,7 +11,7 @@ So here we present the status pages for our website:
 ### Main Pages
 - Github Repository :-
 
-![Website](https://img.shields.io/website?down_color=red&down_message=DOWN&label=Github%20Repo&style=plastic&up_color=yellow&up_message=UP&url=https%3A%2F%2Fgithub.com%2Fbhavberi%2FIIITH-Resources)
+![Website](https://img.shields.io/website?down_color=red&down_message=DOWN&label=Github%20Repo&style=plastic&up_color=yellow&up_message=UP&url=https%3A%2F%2Fgithub.com%2Fbhavberi%2FIIITH-Resources&logo=Github)
 
 - Website Main Page :-
 
