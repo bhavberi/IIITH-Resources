@@ -6,3 +6,4 @@
 - Digital Systems & Microcontrollers
 - Discrete Structures
 - Human Sciences Lab-1
+- Networks, Signals and Sytems
