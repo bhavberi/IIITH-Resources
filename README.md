@@ -38,3 +38,5 @@ Course/s Table
 Status Pages:
   1. [BetterUpTime](https://iiith.betteruptime.com/)
   2. [Freshping](https://statuspage.freshping.io/59242-IIITHResources)
+
+![GitHub language count](https://img.shields.io/github/languages/count/bhavberi/IIITH-Resources?label=Number%20of%20Languages%20Used&style=plastic)
