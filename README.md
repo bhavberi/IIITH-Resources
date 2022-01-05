@@ -1,4 +1,4 @@
-# IIITH Academic & Other Resources
+# IIITH Academic & Other Resources ![GitHub](https://img.shields.io/github/license/bhavberi/IIITH-Resources?color=orange&label=License&style=plastic)
 My IIITH Resources ![Website](https://img.shields.io/website?down_color=red&down_message=Waiting&label=IIITH-Resources%20Website%20Status&style=plastic&up_color=green&up_message=UP&url=https%3A%2F%2Fbhavberi.github.io%2FIIITH-Resources%2F)
 
 These are the resources of my time, so these may or may not be the same for you. Moreover, rather than checking the answers for the quizzes/Assignments, better to solve them yourselves, so as help you in future too.
@@ -40,3 +40,4 @@ Status Pages:
   2. [Freshping](https://statuspage.freshping.io/59242-IIITHResources)
 
 ![GitHub language count](https://img.shields.io/github/languages/count/bhavberi/IIITH-Resources?label=Number%20of%20Languages%20Used&style=plastic)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/bhavberi/IIITH-Resources?color=yellow&label=Code%20Size&style=plastic)
