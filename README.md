@@ -1,11 +1,18 @@
 # IIITH Academic & Other Resources ![GitHub](https://img.shields.io/github/license/bhavberi/IIITH-Resources?color=orange&label=License&style=plastic)
 My IIITH Resources ![Website](https://img.shields.io/website?down_color=red&down_message=Waiting&label=IIITH-Resources%20Website%20Status&style=plastic&up_color=green&up_message=UP&url=https%3A%2F%2Fbhavberi.github.io%2FIIITH-Resources%2F)
 
-These are the resources of my time, so these may or may not be the same for you. Moreover, rather than checking the answers for the quizzes/Assignments, better to solve them yourselves, so as help you in future too.
+These are the resources of our time, so these may or may not be the same for you. Moreover, rather than checking the answers for the quizzes/Assignments, better to solve them yourselves, so as help you in future too.
 
 ### ~ Bhav Beri
 #### ~ Maharnav Singhal
 #### ~ Sreeja Guduri
+
+----
+[Website UpTime Status](./Website-Status.md)
+
+![Maintenance](https://img.shields.io/maintenance/yes/2022?color=success&label=Maintained%20-&style=plastic)
+
+----
 
 Brief Curriculum by the institute : [CSE](https://www.iiit.ac.in/academics/curriculum/undergraduate/cse/) ; [CSD](https://www.iiit.ac.in/academics/curriculum/undergraduate/csd/) ; [CLD](https://www.iiit.ac.in/academics/curriculum/undergraduate/cld/) ; [CHD](https://www.iiit.ac.in/academics/curriculum/undergraduate/chd/) ; [CND](https://www.iiit.ac.in/academics/curriculum/undergraduate/cnd/) ; [ECE](https://www.iiit.ac.in/academics/curriculum/undergraduate/ece/) ; [ECD](https://www.iiit.ac.in/academics/curriculum/undergraduate/ecd/)
 
@@ -35,9 +42,18 @@ Course/s Table
 | [7](https://github.com/bhavberi/IIITH-Resources/tree/main/Semester-7) |  |  |  |  |  | 
 | [8](https://github.com/bhavberi/IIITH-Resources/tree/main/Semester-8) |  |  |  |  |  | 
 --->
-Status Pages:
-  1. [BetterUpTime](https://iiith.betteruptime.com/)
-  2. [Freshping](https://statuspage.freshping.io/59242-IIITHResources)
+
+## Repository Stats :-
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/bhavberi/IIITH-Resources?color=yellow&label=Code%20Size&style=plastic)
+![GitHub repo size](https://img.shields.io/github/repo-size/bhavberi/IIITH-Resources?color=orange&label=Repository%20Size)
 
 ![GitHub language count](https://img.shields.io/github/languages/count/bhavberi/IIITH-Resources?label=Number%20of%20Languages%20Used&style=plastic)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/bhavberi/IIITH-Resources?color=yellow&label=Code%20Size&style=plastic)
+
+## Commits Stats :-
+
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/bhavberi/IIITH-Resources?color=green&label=Commits%20Activity%20in%20Last%20Year&style=plastic)
+![GitHub commits since tagged version](https://img.shields.io/github/commits-since/bhavberi/IIITH-Resources/53c376bd3fcb0dc1667c50f9484012abca38f39c?color=white&label=Total%20Commits%20since%20Start&style=plastic)
+
+
+![GitHub last commit](https://img.shields.io/github/last-commit/bhavberi/IIITH-Resources?color=red&label=Last%20Commit&style=plastic)
