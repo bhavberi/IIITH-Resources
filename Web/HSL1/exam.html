@@ -12,7 +12,7 @@
     <meta name="robots" content="index, follow" />
     <meta name="keywords" content="IIITH Resources">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    
+
     <link rel="icon" type="image/png" href="../../images/logo.png" />
     <link rel="stylesheet" href="../assets/css/main.css" />
     <noscript>
@@ -63,19 +63,20 @@
                     <hr style="border-top: 3px dashed red;">
                     <object data="./Try.pdf" type="application/pdf" width="100%" height="800" id="PDFViewerObject">
                         <p>If you can't open this PDF, <a href="./Try.pdf"> Click Here.</a></p>
-                        
-                        <iframe src="../assets/ViewerJS/#../Try.pdf" width='100%' height='800' allowfullscreen webkitallowfullscreen id="PDFViewerIFrame">
+
+                        <iframe src="../assets/ViewerJS/#../Try.pdf" width='100%' height='800' allowfullscreen
+                            webkitallowfullscreen id="PDFViewerIFrame">
                         </iframe>
                     </object>
                 </div>
             </section>
-                <!---<p>Don't wander in the woods alone. I have heard the owner is dangerous</p>--->
+            <!---<p>Don't wander in the woods alone. I have heard the owner is dangerous</p>--->
 
 
-        <!-- Footer -->
-        <footer id="footer">
-            <section>
-                <!---<form method="post" action="#">
+            <!-- Footer -->
+            <footer id="footer">
+                <section>
+                    <!---<form method="post" action="#">
 								<div class="fields">
 									<div class="field">
 										<label for="name">Name</label>
@@ -94,22 +95,22 @@
 									<li><input type="submit" value="Send Message" /></li>
 								</ul>
 							</form>--->
-                <h4>Human Sciences Lab-1</h4>
-            </section>
-            <section class="split contact">
-                <section class="alt">
-                    <h3>Professor</h3>
-                    <p>Radhika Krishnan</p>
+                    <h4>Human Sciences Lab-1</h4>
                 </section>
-                <section>
-                    <h3>Timeline</h3>
-                    <p>Semester - 1 (Second Half)</p>
-                </section>
-                <section>
-                    <h3>Year of Content</h3>
-                    <p>2021 - 2022</p>
-                </section>
-                <!--<section>
+                <section class="split contact">
+                    <section class="alt">
+                        <h3>Professor</h3>
+                        <p>Radhika Krishnan</p>
+                    </section>
+                    <section>
+                        <h3>Timeline</h3>
+                        <p>Semester - 1 (Second Half)</p>
+                    </section>
+                    <section>
+                        <h3>Year of Content</h3>
+                        <p>2021 - 2022</p>
+                    </section>
+                    <!--<section>
 								<h3>Social</h3>
 								<ul class="icons alt">
 									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
@@ -118,42 +119,45 @@
 									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
 							</section>-->
-            </section>
-        </footer>
+                </section>
+            </footer>
 
-        <!-- Copyright -->
-        <div id="copyright">
-            <ul>
-                <p class="copyright">&copy; Bhav Beri & Contibutors. Design: Dimension by HTML5 UP.</p>
-                <!--
+            <!-- Copyright -->
+            <div id="copyright">
+                <ul>
+                    <p class="copyright">&copy; <a href="https://github.com/bhavberi/IIITH-Resources/blob/main/LICENSE"
+                        target="_blank" rel="follow">Bhav Beri & Contibutors</a>. Design: Dimension by HTML5 UP.</p>
+                    <!--
 	               Massively by HTML5 UP
 	               html5up.net | @ajlkn
 	               Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
                  -->
-            </ul>
+                </ul>
+            </div>
+
         </div>
 
-    </div>
+        <!-- Scripts -->
+        <script src="../assets/js/jquery.min.js"></script>
+        <script src="../assets/js/jquery.scrollex.min.js"></script>
+        <script src="../assets/js/jquery.scrolly.min.js"></script>
+        <script src="../assets/js/browser.min.js"></script>
+        <script src="../assets/js/breakpoints.min.js"></script>
+        <script src="../assets/js/util.js"></script>
+        <script src="../assets/js/main.js"></script>
 
-    <!-- Scripts -->
-    <script src="../assets/js/jquery.min.js"></script>
-    <script src="../assets/js/jquery.scrollex.min.js"></script>
-    <script src="../assets/js/jquery.scrolly.min.js"></script>
-    <script src="../assets/js/browser.min.js"></script>
-    <script src="../assets/js/breakpoints.min.js"></script>
-    <script src="../assets/js/util.js"></script>
-    <script src="../assets/js/main.js"></script>
-
-    <script>
-        function pdffn(name1, name2) {
-            var x = document.getElementById("PDFViewerObject");
-            var y = document.getElementById("PDFViewerIFrame");
-            x.data = name1;
-            y.src = name2;
-            if (document.getElementById("PDFViewer").style.display === "none") {
-                document.getElementById("PDFViewer").style.display = "block";
+        <script>
+            function pdffn(name1, name2) {
+                var x = document.getElementById("PDFViewerObject");
+                var y = document.getElementById("PDFViewerIFrame");
+                x.data = name1;
+                y.src = name2;
+                if (document.getElementById("PDFViewer").style.display === "none") {
+                    document.getElementById("PDFViewer").style.display = "block";
+                }
             }
-        }
-    </script>
+        </script>
 
-</body></html>
+</body>
+
+</html>
