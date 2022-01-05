@@ -56,7 +56,8 @@
             </nav>
             <div class="content">
                 <p><br /></p>
-                <a class="button primary fit" href="https://iiith.boards.net/" rel="follow" target="_self">IIITH Forum</a>
+                <a class="button primary fit" href="https://iiith.boards.net/" rel="follow" target="_self">IIITH
+                    Forum</a>
                 <p><br /></p>
             </div>
         </header>
@@ -85,6 +86,10 @@
                 <include src="./Web/clubs.html"></include>
                 <div id="PDFViewer" style="display: none;">
                     <hr style="border-top: 3px dashed red;">
+                    <p> If you are unable to view this file properly, Please
+                        <a href="./" rel="follow" target="_blank" download id="PDFViewerDownload">Click here</a> to open
+                        it externally.
+                    </p>
                     <object data="./Other_Good_Resources/Facebook_links_clubs.pdf" type="application/pdf" width="100%"
                         height="800" id="PDFViewerObject">
                         <iframe src="./Web/assets/ViewerJS/#../../../Other_Good_Resources/Facebook_links_clubs.pdf"
@@ -157,6 +162,7 @@
             var y = document.getElementById("PDFViewerIFrame");
             x.data = name1;
             y.src = name2;
+            document.getElementById("PDFViewerDownload").href = name1;
             if (document.getElementById("PDFViewer").style.display === "none") {
                 document.getElementById("PDFViewer").style.display = "block";
             }
