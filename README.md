@@ -36,5 +36,5 @@ Course/s Table
 | [8](https://github.com/bhavberi/IIITH-Resources/tree/main/Semester-8) |  |  |  |  |  | 
 --->
 Status Pages:
-  1. [BetterUptime](https://iiith.betteruptime.com/)
+  1. [BetterUpTime](https://iiith.betteruptime.com/)
   2. [Freshping](https://statuspage.freshping.io/59242-IIITHResources)
