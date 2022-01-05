@@ -6,6 +6,7 @@ These are the resources of my time, so these may or may not be the same for you.
 ### ~ Bhav Beri
 <!---#### ~ Harshit Aggarwal--->
 #### ~ Maharnav Singhal
+#### ~ Sreeja Guduri
 
 Brief Curriculum by the institute : [CSE](https://www.iiit.ac.in/academics/curriculum/undergraduate/cse/) ; [CSD](https://www.iiit.ac.in/academics/curriculum/undergraduate/csd/) ; [CLD](https://www.iiit.ac.in/academics/curriculum/undergraduate/cld/) ; [CHD](https://www.iiit.ac.in/academics/curriculum/undergraduate/chd/) ; [CND](https://www.iiit.ac.in/academics/curriculum/undergraduate/cnd/) ; [ECE](https://www.iiit.ac.in/academics/curriculum/undergraduate/ece/) ; [ECD](https://www.iiit.ac.in/academics/curriculum/undergraduate/ecd/)
 
