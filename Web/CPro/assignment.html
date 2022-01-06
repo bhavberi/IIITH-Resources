@@ -142,31 +142,78 @@
                         <h3>Assignment 2</h3>
                     </div>
                 </div>
+
+                </header>
+
+                <h3>Assignments</h3>
+                <!--In 1 row,  see they are stacked like ... -->
+                <div class="row">
+                    <div class="col-6 col-12-small">
+                        <!--Add Odd numbered here-->
+                        <ul class="actions stacked">
+                            <li><a href="#PDFViewer" class="button primary fit"
+                                    onclick="pdffn('../../Semester-1/Computer_Programming/Assignments/Assignment_1.pdf','../assets/ViewerJS/#../../../Semester-1/Computer_Programming/Assignments/Assignment_1.pdf')">Assignment
+                                    1</a></li>
+                            <li><a href="#PDFViewer" class="button primary fit"
+                                    onclick="pdffn('../../Semester-1/Computer_Programming/Assignments/Assignment_3.pdf','../assets/ViewerJS/#../../../Semester-1/Computer_Programming/Assignments/Assignment_3.pdf')">Assignment
+                                    3</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-12-small">
+                        <!--Add Even numbered here-->
+                        <ul class="actions stacked">
+                            <li><a href="#PDFViewer" class="button primary fit"
+                                    onclick="pdffn('../../Semester-1/Computer_Programming/Assignments/Assignment_2.pdf','../assets/ViewerJS/#../../../Semester-1/Computer_Programming/Assignments/Assignment_2.pdf')">Assignment
+                                    2</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <hr style="border-top: 3px dashed gray;">
+
+                <h3>Assignments as seen on OJ</h3>
+                <!--
+                <div class="row">
+                    <div class="col-6 col-12-small">
+                        <ul class="actions stacked">
+                            <li><a href="#PDFViewer" class="button primary fit"
+                                    onclick="pdffn('../../Semester-1/Computer_Programming/Assignments/Assignment_1.pdf','../assets/ViewerJS/#../../../Semester-1/Computer_Programming/Assignments/Assignment_1.pdf')">Assignment
+                                    1</a></li>
+                            <li><a href="#PDFViewer" class="button primary fit"
+                                    onclick="pdffn('../../Semester-1/Computer_Programming/Assignments/Assignment_3.pdf','../assets/ViewerJS/#../../../Semester-1/Computer_Programming/Assignments/Assignment_3.pdf')">Assignment
+                                    3</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-12-small">
+                        <ul class="actions stacked">
+                            <li><a href="#PDFViewer" class="button primary fit"
+                                    onclick="pdffn('../../Semester-1/Computer_Programming/Assignments/Assignment_2.pdf','../assets/ViewerJS/#../../../Semester-1/Computer_Programming/Assignments/Assignment_2.pdf')">Assignment
+                                    2</a></li>
+                        </ul>
+                    </div>
+                </div>
+                -->
+
+
+                <div id="PDFViewer" style="display: none;">
+                    <hr style="border-top: 3px dashed red;">
+                    <p> If you are unable to view this file properly, Please
+                        <a href="./" rel="follow" target="_blank" download id="PDFViewerDownload">Click here</a>
+                        to
+                        open
+                        it externally.
+                    </p>
+                    <object data="./Try.pdf" type="application/pdf" width="100%" height="800" id="PDFViewerObject">
+                        <iframe src="../assets/ViewerJS/#../Try.pdf" width='100%' height='800' allowfullscreen
+                            webkitallowfullscreen id="PDFViewerIFrame">
+                        </iframe>
+                    </object>
             </section>
         </div>
 
         <!-- Footer -->
         <footer id="footer">
             <section>
-                <!---<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>--->
                 <h4>Computer Programming</h4>
             </section>
             <section class="split contact">
@@ -195,7 +242,7 @@
         </footer>
 
         <!-- Copyright -->
-        <div id="copyright">
+        <!--<div id="copyright">
             <ul>
                 <p class="copyright">&copy; <a href="https://github.com/bhavberi/IIITH-Resources/blob/main/LICENSE"
                         target="_blank" rel="follow">Bhav Beri & Contibutors. <img alt="GitHub"
@@ -206,9 +253,10 @@
 	               Massively by HTML5 UP
 	               html5up.net | @ajlkn
 	               Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-                 -->
+                 ->
             </ul>
-        </div>
+        </div>-->
+        <include src="../footer_courses.html"></include>
 
     </div>
 
@@ -227,11 +275,14 @@
             var y = document.getElementById("PDFViewerIFrame");
             x.data = name1;
             y.src = name2;
+            document.getElementById("PDFViewerDownload").href = name1;
             if (document.getElementById("PDFViewer").style.display === "none") {
                 document.getElementById("PDFViewer").style.display = "block";
             }
+            else if (document.getElementById("PDFViewer").style.display === "block") {
+                document.getElementById("PDFViewer").style.display = "none";
+            }
         }
-
     </script>
 
 </body>

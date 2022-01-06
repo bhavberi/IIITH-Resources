@@ -63,11 +63,31 @@
                     <h1>Computer Programming<br />
                         Quizzes & Exams Page</h1>
                 </header>
+
+                <div class="row">
+                    <div class="col-6 col-12-small">
+                        <ul class="actions stacked">
+                            <li><a href="#PDFViewer" class="button primary fit"
+                                    onclick="pdffn('../../Semester-1/Computer_Programming/Quizzes/Quiz_1.pdf','../assets/ViewerJS/#../../../Semester-1/Computer_Programming/Quizzes/Quiz_1.pdf')">Quiz
+                                    1</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-12-small">
+                        <ul class="actions stacked">
+                            <li><a href="#PDFViewer" class="button primary fit"
+                                    onclick="pdffn('../../Semester-1/Computer_Programming/Quizzes/Coding_Quiz_1.pdf','../assets/ViewerJS/#../../../Semester-1/Computer_Programming/Quizzes/Coding_Quiz_1.pdf')">Coding
+                                    Quiz 1</a></li>
+                        </ul>
+                    </div>
+                </div>
+
                 <div id="PDFViewer" style="display: none;">
                     <hr style="border-top: 3px dashed red;">
+                    <p> If you are unable to view this file properly, Please
+                        <a href="./" rel="follow" target="_blank" download id="PDFViewerDownload">Click here</a> to open
+                        it externally.
+                    </p>
                     <object data="./Try.pdf" type="application/pdf" width="100%" height="800" id="PDFViewerObject">
-                        <p>If you can't open this PDF, <a href="./Try.pdf"> Click Here.</a></p>
-
                         <iframe src="../assets/ViewerJS/#../Try.pdf" width='100%' height='800' allowfullscreen
                             webkitallowfullscreen id="PDFViewerIFrame">
                         </iframe>
@@ -80,25 +100,6 @@
             <!-- Footer -->
             <footer id="footer">
                 <section>
-                    <!---<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>--->
                     <h4>Computer Programming</h4>
                 </section>
                 <section class="split contact">
@@ -127,20 +128,21 @@
             </footer>
 
             <!-- Copyright -->
-            <div id="copyright">
-                <ul>
-                    <p class="copyright">&copy; <a href="https://github.com/bhavberi/IIITH-Resources/blob/main/LICENSE"
-                            target="_blank" rel="follow">Bhav Beri & Contibutors. <img alt="GitHub"
-                                src="https://img.shields.io/github/license/bhavberi/IIITH-Resources?label=License&style=plastic"></a>
-                    </p>
-                    <p class="copyright">Design: Massively by HTML5 UP.</p>
-                    <!--
+        <!--<div id="copyright">
+            <ul>
+                <p class="copyright">&copy; <a href="https://github.com/bhavberi/IIITH-Resources/blob/main/LICENSE"
+                        target="_blank" rel="follow">Bhav Beri & Contibutors. <img alt="GitHub"
+                            src="https://img.shields.io/github/license/bhavberi/IIITH-Resources?label=License&style=plastic"></a>
+                </p>
+                <p class="copyright">Design: Massively by HTML5 UP.</p>
+                <!--
 	               Massively by HTML5 UP
 	               html5up.net | @ajlkn
 	               Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-                 -->
-                </ul>
-            </div>
+                 ->
+            </ul>
+        </div>-->
+        <include src="../footer_courses.html"></include>
 
         </div>
 
@@ -159,8 +161,12 @@
                 var y = document.getElementById("PDFViewerIFrame");
                 x.data = name1;
                 y.src = name2;
+                document.getElementById("PDFViewerDownload").href = name1;
                 if (document.getElementById("PDFViewer").style.display === "none") {
                     document.getElementById("PDFViewer").style.display = "block";
+                }
+                else if (document.getElementById("PDFViewer").style.display === "block") {
+                    document.getElementById("PDFViewer").style.display = "none";
                 }
             }
         </script>
