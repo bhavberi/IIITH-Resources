@@ -230,18 +230,15 @@
 
     <script>
         function pdffn(name1, name2) {
-            var x = document.getElementById("PDFViewerObject");
-            var y = document.getElementById("PDFViewerIFrame");
-            x.data = name1;
-            y.src = name2;
-            document.getElementById("PDFViewerDownload").href = name1;
-            if (document.getElementById("PDFViewer").style.display === "none") {
-                document.getElementById("PDFViewer").style.display = "block";
+                var x = document.getElementById("PDFViewerObject");
+                var y = document.getElementById("PDFViewerIFrame");
+                x.data = name1;
+                y.src = name2;
+                document.getElementById("PDFViewerDownload").href = name1;
+                if (document.getElementById("PDFViewer").style.display === "none") {
+                    document.getElementById("PDFViewer").style.display = "block";
+                }
             }
-            else if (document.getElementById("PDFViewer").style.display === "block") {
-                document.getElementById("PDFViewer").style.display = "none";
-            }
-        }
     </script>
 
 </body>
