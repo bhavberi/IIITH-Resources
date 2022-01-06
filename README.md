@@ -1,5 +1,5 @@
-# IIITH Academic & Other Resources ![GitHub](https://img.shields.io/github/license/bhavberi/IIITH-Resources?label=License&style=plastic&logo=Github)
-My IIITH Resources ![Website](https://img.shields.io/website?down_color=red&down_message=Waiting&label=IIITH-Resources%20Website%20Status&style=plastic&up_color=green&up_message=UP&url=https%3A%2F%2Fbhavberi.github.io%2FIIITH-Resources%2F)
+# IIITH Academic & Other Resources ![GitHub License](https://img.shields.io/github/license/bhavberi/IIITH-Resources?label=License&style=plastic&logo=Github)
+My IIITH Resources ![Website Status](https://img.shields.io/website?down_color=red&down_message=Waiting&label=IIITH-Resources%20Website%20Status&style=plastic&up_color=green&up_message=UP&url=https%3A%2F%2Fbhavberi.github.io%2FIIITH-Resources%2F)
 
 These are the resources of our time, so these may or may not be the same for you. Moreover, rather than checking the answers for the quizzes/Assignments, better to solve them yourselves, so that they help you in the future too.
 
@@ -8,10 +8,10 @@ These are the resources of our time, so these may or may not be the same for you
 #### ~ Sreeja Guduri
 
 ----
-[Website UpTime Status](./Website-Status.md)
+[Website UpTime Status Page](./Website-Status.md)
 
 ![Maintenance](https://img.shields.io/maintenance/yes/2022?color=success&label=Maintained%20-&style=plastic)
-![Maintenance](https://img.shields.io/badge/Last%20Maintained%20Year-2022-ff69b4)
+![Maintenance Year](https://img.shields.io/badge/Last%20Maintained%20Year-2022-ff69b4)
 
 ----
 
@@ -43,18 +43,19 @@ Course/s Table
 | [7](https://github.com/bhavberi/IIITH-Resources/tree/main/Semester-7) |  |  |  |  |  | 
 | [8](https://github.com/bhavberi/IIITH-Resources/tree/main/Semester-8) |  |  |  |  |  | 
 --->
+![Total Courses Added](https://img.shields.io/badge/Total%20Courses%20Added-5-white)
 
 ## Repository Stats :-
 
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/bhavberi/IIITH-Resources?color=yellow&label=Code%20Size&style=plastic)
-![GitHub repo size](https://img.shields.io/github/repo-size/bhavberi/IIITH-Resources?color=orange&label=Repository%20Size)
+![GitHub Code size in bytes](https://img.shields.io/github/languages/code-size/bhavberi/IIITH-Resources?color=yellow&label=Code%20Size&style=plastic)
+![GitHub Repo size](https://img.shields.io/github/repo-size/bhavberi/IIITH-Resources?color=orange&label=Repository%20Size)
 
-![GitHub language count](https://img.shields.io/github/languages/count/bhavberi/IIITH-Resources?label=Number%20of%20Languages%20Used&style=plastic)
+![GitHub Language count](https://img.shields.io/github/languages/count/bhavberi/IIITH-Resources?label=Number%20of%20Languages%20Used&style=plastic)
 
 ## Commits Stats :-
 
-![GitHub commit activity](https://img.shields.io/github/commit-activity/y/bhavberi/IIITH-Resources?color=green&label=Commits%20Activity%20in%20Last%20Year&style=plastic)
-![GitHub commits since tagged version](https://img.shields.io/github/commits-since/bhavberi/IIITH-Resources/53c376bd3fcb0dc1667c50f9484012abca38f39c?color=white&label=Total%20Commits%20since%20Start&style=plastic)
+![GitHub Commit activity](https://img.shields.io/github/commit-activity/y/bhavberi/IIITH-Resources?color=green&label=Commits%20Activity%20in%20Last%20Year&style=plastic)
+![GitHub Commits since start](https://img.shields.io/github/commits-since/bhavberi/IIITH-Resources/53c376bd3fcb0dc1667c50f9484012abca38f39c?color=white&label=Total%20Commits%20since%20Start&style=plastic)
 
 
-![GitHub last commit](https://img.shields.io/github/last-commit/bhavberi/IIITH-Resources?color=red&label=Last%20Commit&style=plastic)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/bhavberi/IIITH-Resources?color=red&label=Last%20Commit&style=plastic)
