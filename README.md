@@ -21,11 +21,11 @@ Course/s Table
 
 |Semester | Courses | Course Code | Professor | Credits | Course Type | 
 | :--------: | :-----------------: | -------: | :---------------: | :-------: | ----------: |
-| [1](https://github.com/bhavberi/IIITH-Resources/tree/main/Semester-1) | [Computer Programming](https://github.com/bhavberi/IIITH-Resources/tree/main/Semester-1/Computer_Programming) | CS0.101 | Venkata Suresh Reddy Purini | 5 | Institute Core | 
-|  | [Discrete Structures](https://github.com/bhavberi/IIITH-Resources/tree/main/Semester-1/Discrete_Structures) | MA5.101 | Ashok Kumar Das | 4 | Institute Core | 
-|  | [Digital Systems & Microcontrollers](https://github.com/bhavberi/IIITH-Resources/tree/main/Semester-1/Digital_System%26Microcontrollers) | EC2.101 | Aftab M. Hussain | 5 | Institute Core | 
-|  | [Human Sciences Lab-1](https://github.com/bhavberi/IIITH-Resources/tree/main/Semester-1/Human_Sciences_Lab1) | HS7.101 | Radhika Krishnan | 2 | CHD Core |
-|  | [Networks, Signals and Systems](https://github.com/bhavberi/IIITH-Resources/tree/main/Semester-1/Networks_Signals_and_Systems) | EC5.101 | Santosh Nannuru ; Anshu Sarje | 4 | UG Core |
+| [1](https://github.com/bhavberi/IIITH-Resources/tree/main/Semester-1) | [Computer Programming](https://github.com/bhavberi/IIITH-Resources/tree/main/Semester-1/Computer_Programming) | CS0.101 | Venkata Suresh Reddy Purini | 5 | Programme (CXX/ECX) Core | 
+|  | [Discrete Structures](https://github.com/bhavberi/IIITH-Resources/tree/main/Semester-1/Discrete_Structures) | MA5.101 | Ashok Kumar Das | 4 | Maths Core | 
+|  | [Digital Systems & Microcontrollers](https://github.com/bhavberi/IIITH-Resources/tree/main/Semester-1/Digital_System%26Microcontrollers) | EC2.101 | Aftab M. Hussain | 5 | Programme (CXX/ECX) Core | 
+|  | [Human Sciences Lab-1](https://github.com/bhavberi/IIITH-Resources/tree/main/Semester-1/Human_Sciences_Lab1) | HS7.101 | Radhika Krishnan | 2 | Programme (CHD) Core |
+|  | [Networks, Signals and Systems](https://github.com/bhavberi/IIITH-Resources/tree/main/Semester-1/Networks_Signals_and_Systems) | EC5.101 | Santosh Nannuru ; Anshu Sarje | 4 | Programme (ECX) Core |
 | [2](https://github.com/bhavberi/IIITH-Resources) |  |  |  |  |  | 
 | [3](https://github.com/bhavberi/IIITH-Resources) |  |  |  |  |  | 
 | [4](https://github.com/bhavberi/IIITH-Resources) |  |  |  |  |  | 
