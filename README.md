@@ -1,5 +1,18 @@
-# IIITH Academic & Other Resources ![GitHub License](https://img.shields.io/github/license/bhavberi/IIITH-Resources?label=License&style=plastic&logo=Github)
-My IIITH Resources ![Website Status](https://img.shields.io/website?down_color=red&down_message=Waiting&label=IIITH-Resources%20Website%20Status&style=plastic&up_color=green&up_message=UP&url=https%3A%2F%2Fbhavberi.github.io%2FIIITH-Resources%2F)
+``` 
+                   ____  ____  ____  _____   __   __
+                  |_  _||_  _||_  _||_   _| |  | |  |
+                    ||    ||    ||    | |   |  |_|  |
+                    ||    ||    ||    | |   |   _   |
+                   _||_  _||_  _||_   | |   |  | |  |
+                  |____||____||____|  |_|   |__| |__|
+         
+       ____   ____   ___   _____   _   _   ____    ___   ____   ___
+      (  _ \ ( ___) / __) (  _  ) | | | | (  _ \  / __) ( ___) / __)
+       )   /  )__)  \__ \ ( (_) ) | |_| |  )   / ( (_    )__)  \__ \
+      (_)\_) (____) (___/ (_____) |_____| (_)\_)  \___) (____) (___/ 
+ ```
+# ⚖️ ![GitHub License](https://img.shields.io/github/license/bhavberi/IIITH-Resources?label=License&style=plastic&logo=Github)
+### 📝  My IIITH Resources ![Website Status](https://img.shields.io/website?down_color=red&down_message=Waiting&label=IIITH-Resources%20Website%20Status&style=plastic&up_color=green&up_message=UP&url=https%3A%2F%2Fbhavberi.github.io%2FIIITH-Resources%2F)
 
 These are the resources of our time, so these may or may not be the same for you. Moreover, rather than checking the answers for the quizzes/Assignments, better to solve them yourselves, so that they help you in the future too.
 
