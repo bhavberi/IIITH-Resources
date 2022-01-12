@@ -2,13 +2,6 @@
 <html lanf="en">
 
 <head>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-WBFQRRQ');</script>
-    <!-- End Google Tag Manager -->
     <title>NeSS - IIITH Resources</title>
 
     <meta charset="UTF-8" />
@@ -28,10 +21,6 @@
 </head>
 
 <body class="is-preload">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WBFQRRQ"
-        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 
     <!-- Wrapper -->
     <div id="wrapper">
@@ -74,14 +63,20 @@
                     <h1>Networks, Signals and Systems<br />
                         Quizzes & Exams Page</h1>
                 </header>
+
+                <div class="row">
+                    <div class="col-6 col-12-small">
+                        <ul class="actions stacked">
+                            <li><a href="#PDFViewer" class="button primary fit" onclick="pdffn('../../Semester-1/Networks_Signals_and_Systems/Exams/Midterm.pdf','../assets/ViewerJS/#../../../Semester-1/Networks_Signals_and_Systems/Exams/Midterm.pdf')">Mid-semester exam</a></li>
+                        </ul>
+                    </div>
+                </div>
+
                 <div id="PDFViewer" style="display: none;">
                     <hr style="border-top: 3px dashed red;">
-                    <p> If you are unable to view this file properly, Please
-                        <a href="./" rel="follow" target="_blank" download id="PDFViewerDownload">Click here</a> to
-                        open
-                        it externally.
-                    </p>
                     <object data="./Try.pdf" type="application/pdf" width="100%" height="800" id="PDFViewerObject">
+                        <p>If you can't open this PDF, <a href="./Try.pdf"> Click Here.</a></p>
+
                         <iframe src="../assets/ViewerJS/#../Try.pdf" width='100%' height='800' allowfullscreen
                             webkitallowfullscreen id="PDFViewerIFrame">
                         </iframe>
@@ -94,6 +89,25 @@
             <!-- Footer -->
             <footer id="footer">
                 <section>
+                    <!---<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>--->
                     <h4>Networks, Signals and Systems</h4>
                 </section>
                 <section class="split contact">
@@ -122,21 +136,17 @@
             </footer>
 
             <!-- Copyright -->
-            <!--<div id="copyright">
+            <div id="copyright">
                 <ul>
                     <p class="copyright">&copy; <a href="https://github.com/bhavberi/IIITH-Resources/blob/main/LICENSE"
-                            target="_blank" rel="follow">Bhav Beri & Contibutors. <img alt="GitHub"
-                                src="https://img.shields.io/github/license/bhavberi/IIITH-Resources?label=License&style=plastic"></a>
-                    </p>
-                    <p class="copyright">Design: Massively by HTML5 UP.</p>
+                            target="_blank" rel="follow">Bhav Beri & Contibutors</a>. Design: Dimension by HTML5 UP.</p>
                     <!--
 	               Massively by HTML5 UP
 	               html5up.net | @ajlkn
 	               Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-                 ->
+                 -->
                 </ul>
-            </div>-->
-            <include src="../footer_courses.html"></include>
+            </div>
 
         </div>
 
@@ -155,7 +165,6 @@
                 var y = document.getElementById("PDFViewerIFrame");
                 x.data = name1;
                 y.src = name2;
-                document.getElementById("PDFViewerDownload").href = name1;
                 if (document.getElementById("PDFViewer").style.display === "none") {
                     document.getElementById("PDFViewer").style.display = "block";
                 }
