@@ -91,3 +91,5 @@ Course/s Table
 
 
 ![GitHub Last Commit](https://img.shields.io/github/last-commit/bhavberi/IIITH-Resources?color=red&label=Last%20Commit&style=plastic)
+
+[![pages-build-deployment](https://github.com/bhavberi/IIITH-Resources/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/bhavberi/IIITH-Resources/actions/workflows/pages/pages-build-deployment)
