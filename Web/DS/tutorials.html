@@ -205,8 +205,8 @@
                         it externally.
                     </p>
                     <object data="./Try.pdf" type="application/pdf" width="100%" height="800" id="PDFViewerObject">
-                        <iframe src="../assets/ViewerJS/#../Try.pdf" width='100%' height='800' allowfullscreen
-                            webkitallowfullscreen id="PDFViewerIFrame">
+                        <iframe src="../../Semester-1/Discrete_Structures/Tutorials/Functions_Tutorial.pdf" width='100%'
+                            height='800' allowfullscreen webkitallowfullscreen id="PDFViewerIFrame">
                         </iframe>
                     </object>
                 </div>
@@ -275,9 +275,10 @@
     <script>
         function pdffn(name1, name2) {
             var x = document.getElementById("PDFViewerObject");
-            var y = document.getElementById("PDFViewerIFrame");
+            var y = document.getElementById('PDFViewerIFrame');
             x.data = name1;
-            y.src = name2;
+            y.contentWindow.history.replaceState('WhatEverNameYouWant', "", name2);
+            document.getElementById("PDFViewerIFrame").src = name2;
             document.getElementById("PDFViewerDownload").href = name1;
             if (document.getElementById("PDFViewer").style.display === "none") {
                 document.getElementById("PDFViewer").style.display = "block";
