@@ -50,6 +50,7 @@ Course/s Table
 - Create a pull request with the material
 - Create an issue for any suggestions/corrections
 - Go to [Contribute Page of Website](https://bhavberi.github.io/IIITH-Resources/#contribute)
+- Don't forget to read the **[Contributing Guidelines Page](./.github/CONTRIBUTING.md)**
 
 #### Hope to see you soon via one of these modes of contribution
 -----
