@@ -9,7 +9,7 @@
   - [ ] *p==a[0]
   - [x] p==a[0]
 
-2.
+2. How many times the function fib is activated or called ?
 ``` C
     #include <stdio.h>
     int fib(int n)
@@ -25,14 +25,12 @@
     }
 ```
 
-    How many times the function fib is activated or called ?
-
   - [ ] 3
   - [ ] 4
   - [x] 5
   - [ ] 6
 
-3.
+3. What is the output of the below program on the keyboard input "12 thirty-two" ?
 ```C
     #include <stdio.h>
     int main()
@@ -43,15 +41,12 @@
     return 0;
     }
 ```
-
-    What is the output of the above program on the keyboard input "12 thirty-two" ?
-
   - [ ] 0
   - [x] 1
   - [ ] 2
   - [ ] -1
 
-4.
+4. What will be ouput of the program on the keyboard input "12 32" ?
 ```C  
   #include <stdio.h>
   int main()
@@ -62,15 +57,12 @@
     return 0;
   }
 ```
-
-    What will be ouput of the program on the keyboard input "12 32" ?
-
   - [ ] 0
   - [ ] 1
   - [x] 2
   - [ ] -1
 
-5.
+5. How many times the function fib is activated or called ?
 ```C
 #include <stdio.h>
 int fib(int n)
@@ -85,9 +77,6 @@ int main()
   return 0;
 }
 ```
-
-    How many times the function fib is activated or called ?
-
   - [ ] 4
   - [ ] 6
   - [x] 9
@@ -112,7 +101,7 @@ int main()
 - [ ] one_crore_
 - [ ] _one_crore
 
-8.
+8. What is the return value of printf statement in the below program ?
 ```C
 #include <stdio.h>
 int main()
@@ -122,16 +111,13 @@ int main()
   return 0;
 }
 ```
-
-    What is the return value of the above program ?
-
   - [ ] void
   - [ ] 0
   - [ ] 200
   - [ ] 3
   - [x] 4
 
-9.
+9. What is the output of the above program on the keyboad input "12 32.5" ?
 ```C
 #include <stdio.h>
 int main()
@@ -142,9 +128,6 @@ int main()
   return 0;
 }
 ```
-
-    What is the output of the above program on the keyboad input "12 32.5" ?
-
   - [ ] 0
   - [ ] 1
   - [x] 2
