@@ -29,6 +29,24 @@ To get an overview of the project, read the [README](README.md). Here are some r
 - [Collaborating with pull requests](https://docs.github.com/en/github/collaborating-with-pull-requests)
 - Use _Good First Issue Tag_ in Issues section.
 
+<p>Never made an open source contribution before? Wondering how contributions work in the in our project? Here's a quick rundown!</p>
+
+<ol><li>Find an issue that you are interested in addressing or a feature that you would like to add.</li>
+	<li>Fork the repository associated with the issue to your local GitHub organization. This means that you will have a copy of the repository under <strong>bhavberi/IIITH-Resources</strong>.</li>
+	<li>Clone the repository to your local machine using <strong>git clone <a href="https://github.com/bhavberi/IIITH-Resources.git">https://github.com/bhavberi/IIITH-Resources.git</a></strong>.</li>
+	<li>Create a new branch for your fix using <strong>git checkout -b branch-name-here</strong>.</li>
+	<li>Make the appropriate changes for the issue you are trying to address or the feature that you want to add.</li>
+	<li>Use <strong>git add insert-paths-of-changed-files-here</strong> to add the file contents of the changed files to the "snapshot" git uses to manage the state of the project, also known as the index.</li>
+	<li>Use <strong>git commit -m "Insert a short message of the changes made here"</strong> to store the contents of the index with a descriptive message.</li>
+	<li>Push the changes to the remote repository using <strong>git push origin branch-name-here</strong>.</li>
+	<li>Submit a pull request to the upstream repository.</li>
+	<li>Title the pull request with a short description of the changes made and the issue or bug number associated with your change. For example, you can title an issue like so "Added more log outputting to resolve #4352".</li>
+	<li>In the description of the pull request, explain the changes that you made, any issues you think exist with the pull request you made, and any questions you have for the maintainer. It's OK if your pull request is not perfect (no pull request is), the reviewer will be able to help you fix any problems and improve it!</li>
+	<li>Wait for the pull request to be reviewed by a maintainer.</li>
+	<li>Make changes to the pull request if the reviewing maintainer recommends them.</li>
+	<li>Celebrate your success after your pull request is merged!</li>
+</ol>
+
 ## ⚖️📝 **License**
 ![GitHub License](https://img.shields.io/github/license/bhavberi/IIITH-Resources?label=License&style=plastic&logo=Github)
 
@@ -53,3 +71,11 @@ By contributing, you agree that your contributions will be licensed under the sa
 4. Please attach screenshots, if applicable.
 5. Please write to the point, crisp description for your issue.
 - If you want to become an official Contributor into the Project, please use _Contributor Request Tag_, along with listing _WHY_ you want to become an official Contributor into this Project and what excites you about this project. Also, mention your Email ID with it.
+
+## For HELP
+Contact any of the contributor via their GitHub ID, or create an issue with _HELP_ in Title, and we would be there for you at all times.
+- [Bhav Beri](https://github.com/bhavberi)
+- [Maharnav Singhal](https://github.com/MaharnavS)
+
+## **Sincere IIITH-Resources Team**
+#### Hope you enjoy and feel Good Contributing in this open-source Project for your Collegemates.
