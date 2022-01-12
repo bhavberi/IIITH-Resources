@@ -16,6 +16,7 @@ So here we present the status pages for our website:
 - Website Main Page :-
 
 ![Website](https://img.shields.io/website?down_color=red&down_message=Waiting&label=IIITH-Resources%20Website%20Status&style=plastic&up_color=green&up_message=UP&url=https%3A%2F%2Fbhavberi.github.io%2FIIITH-Resources%2F)
+[![pages-build-deployment](https://github.com/bhavberi/IIITH-Resources/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/bhavberi/IIITH-Resources/actions/workflows/pages/pages-build-deployment)
 
 I- IITH-Resources Forum :-
 
