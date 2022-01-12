@@ -52,6 +52,15 @@ Course/s Table
 
 ![GitHub Language count](https://img.shields.io/github/languages/count/bhavberi/IIITH-Resources?label=Number%20of%20Languages%20Used&style=plastic)
 
+<div align="center">
+  <a href="https://github.com//bhavberi/IIITH-Resources/issues">
+    <img alt="Issues" src="https://img.shields.io/github/issues/bhavberi/IIITH-Resources?color=0088ff&style=for-the-badge&logo=github"/>
+  </a>
+  <a href="https://github.com//bhavberi/IIITH-Resources/pulls">
+    <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/bhavberi/IIITH-Resources?color=0088ff&style=for-the-badge&logo=github"/>
+  </a>
+</div>
+
 ## Commits Stats :-
 
 ![GitHub Commit activity](https://img.shields.io/github/commit-activity/y/bhavberi/IIITH-Resources?color=green&label=Commits%20Activity%20in%20Last%20Year&style=plastic)
