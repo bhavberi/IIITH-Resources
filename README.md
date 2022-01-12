@@ -8,7 +8,7 @@ These are the resources of our time, so these may or may not be the same for you
 #### ~ Sreeja Guduri
 #### ~ Shreya Bollimuntha
 ----
-[Website UpTime Status Page](./Website-Status.md)
+🚀 [Website UpTime Status Page](./Website-Status.md)
 
 ![Maintenance](https://img.shields.io/maintenance/yes/2022?color=success&label=Maintained%20-&style=plastic)
 ![Maintenance Year](https://img.shields.io/badge/Last%20Maintained%20Year-2022-ff69b4)
@@ -44,6 +44,15 @@ Course/s Table
 | [8](https://github.com/bhavberi/IIITH-Resources/tree/main/Semester-8) |  |  |  |  |  | 
 --->
 ![Total Courses Added](https://img.shields.io/badge/Total%20Courses%20Added-5-white)
+
+----
+## Liked the Page & wanna Contribute 🎉
+- Create a pull request with the material
+- Create an issue for any suggestions/corrections
+- Go to [Contribute Page of Website](https://bhavberi.github.io/IIITH-Resources/#contribute)
+
+#### Hope to see you soon via one of these modes of contribution
+-----
 
 ## Repository Stats :-
 
