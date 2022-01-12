@@ -59,6 +59,7 @@ By contributing, you agree that your contributions will be licensed under the sa
 - Place the files (Resources), that you want to contribute in correct folders.
 - Please check and don't remove some of the important elements of HTML files & once check that before commiting by checking the differences in your file and the existing file(if any).
 - Please make sure that no Temporary Files are uploaded.
+- Please firstly confirm that no one else had earlier same kind of issue, which have been solved or listed.
 
 ## Copyright Guidelines
 - Don't upload or link to any Copyrighted Material.
