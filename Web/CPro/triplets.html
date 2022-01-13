@@ -1,0 +1,43 @@
+<style>.hljs-selector-id{color:#4D913C;}.hljs-type{color:#66D9EF;}.hljs-bullet{color:#E6DB74;}.hljs-section{color:#71C05D;}.hljs-selector-class{color:#4D913C;}.hljs-regexp{color:#4D913C;}.hljs-built_in{color: #97C8F7;}.hljs-emphasis{font-style:italic;}.hljs-function{color:#71C05D;}.hljs-link{color:#4D913C;}.hljs-keyword{color:#FF6540;}.hljs-number{color: #CA94FF;}.hljs-meta{color:#149b93;}.hljs-params{color:#66D9EF;}.hljs-deletion{color:#4D913C;}.hljs{padding:0.5em;color:#F8F8F2;display:block;}.hljs-name{color:#4D913C;}.hljs-template-variable{color:#4D913C;}.hljs-class{color:#71C05D;}.hljs-comment{color:#5C98CD;}.hljs-title{color:#71C05D;}.hljs-selector-tag{color:#FF6540;}.hljs-addition{color:#E6DB74;}.hljs-builtin-name{color: #97C8F7;}.hljs-attribute{color:#4D913C;}.hljs-strong{font-weight:bold;}.hljs-variable{color:#4D913C;}.hljs-string{color:#E6DB74;}.hljs-tag{color:#4D913C;}.hljs-quote{color:#5C98CD;}.hljs-literal{color: #97C8F7;}.hljs-symbol{color:#E6DB74;}</style><pre><code class="hljs" style="background:#2B3E50;border-radius:8px"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;stdio.h&gt;</span></span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;stdlib.h&gt;</span></span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;ctype.h&gt;</span></span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;string.h&gt;</span></span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;math.h&gt;</span></span>
+
+<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span> 
+</span>{
+	<span class="hljs-keyword">int</span> N,x;
+	x=<span class="hljs-built_in">scanf</span>(<span class="hljs-string">"%d"</span>,&amp;N);  <span class="hljs-comment">//gets the number of triplets to be printed</span>
+	<span class="hljs-keyword">if</span>(x&lt;<span class="hljs-number">0</span>)
+		{
+			<span class="hljs-keyword">return</span> <span class="hljs-number">1</span>;
+		}
+	<span class="hljs-keyword">if</span>(N&lt;=<span class="hljs-number">0</span>)  <span class="hljs-comment">//checks for user error</span>
+		{
+			<span class="hljs-keyword">return</span> <span class="hljs-number">1</span>;
+		}
+	<span class="hljs-keyword">int</span> n=<span class="hljs-number">0</span>, a, b, c;
+	<span class="hljs-keyword">for</span>(a=<span class="hljs-number">3</span>;a&lt;=<span class="hljs-number">200</span>;a++)  <span class="hljs-comment">//the following nested loops are used to increment each value sequentially</span>
+		{
+			<span class="hljs-keyword">for</span>(b=a+<span class="hljs-number">1</span>;b&lt;=<span class="hljs-number">200</span>;b++)  <span class="hljs-comment">//using b=a+1 makes sure a&gt;b and then b&gt;c in next loop</span>
+				{
+					<span class="hljs-keyword">for</span>(c=b+<span class="hljs-number">1</span>;c&lt;=<span class="hljs-number">200</span>;c++)
+						{
+							<span class="hljs-keyword">if</span>((a*a)+(b*b)==(c*c))  <span class="hljs-comment">//checks the condition for triplets</span>
+								{
+									<span class="hljs-built_in">printf</span>(<span class="hljs-string">"%d %d %d"</span>,a,b,c);
+									n++;
+									<span class="hljs-keyword">break</span>;  <span class="hljs-comment">//no need of c loop anymore </span>
+								}
+						}
+					<span class="hljs-keyword">if</span>(n==N)  <span class="hljs-comment">//no need if we already got what we needed</span>
+						{
+							<span class="hljs-keyword">break</span>;
+						}
+				}
+			<span class="hljs-keyword">if</span>(n==N)  <span class="hljs-comment">//again don't be greedy, you got what you wanted :D</span>
+				{
+					<span class="hljs-keyword">break</span>;
+				}
+		}
+}</code></pre>
