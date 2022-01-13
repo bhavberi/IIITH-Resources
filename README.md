@@ -20,6 +20,7 @@ These are the resources of our time, so these may or may not be the same for you
 #### ~ Maharnav Singhal
 #### ~ Sreeja Guduri
 #### ~ Shreya Bollimuntha
+#### ~ Gnaneswar K 
 ----
 🚀 [Website UpTime Status Page](./Website-Status.md)
 
