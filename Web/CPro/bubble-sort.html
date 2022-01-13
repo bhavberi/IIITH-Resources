@@ -1,0 +1,113 @@
+<style>.hljs-quote{color:#5C98CD;}.hljs-built_in{color: #97C8F7;}.hljs-section{color:#71C05D;}.hljs-strong{font-weight:bold;}.hljs-type{color:#66D9EF;}.hljs-number{color: #CA94FF;}.hljs{color:#F8F8F2;padding:0.5em;display:block;}.hljs-variable{color:#4D913C;}.hljs-emphasis{font-style:italic;}.hljs-name{color:#4D913C;}.hljs-link{color:#4D913C;}.hljs-regexp{color:#4D913C;}.hljs-template-variable{color:#4D913C;}.hljs-tag{color:#4D913C;}.hljs-meta{color:#149b93;}.hljs-title{color:#71C05D;}.hljs-selector-id{color:#4D913C;}.hljs-class{color:#71C05D;}.hljs-bullet{color:#E6DB74;}.hljs-comment{color:#5C98CD;}.hljs-string{color:#E6DB74;}.hljs-attribute{color:#4D913C;}.hljs-params{color:#66D9EF;}.hljs-keyword{color:#FF6540;}.hljs-selector-tag{color:#FF6540;}.hljs-deletion{color:#4D913C;}.hljs-literal{color: #97C8F7;}.hljs-selector-class{color:#4D913C;}.hljs-symbol{color:#E6DB74;}.hljs-addition{color:#E6DB74;}.hljs-builtin-name{color: #97C8F7;}.hljs-function{color:#71C05D;}</style><pre><code class="hljs" style="background:#2B3E50;border-radius:8px"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;stdio.h&gt;</span></span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;stdlib.h&gt;</span></span>
+
+<span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> MAXARRAY_SIZE 200</span>
+
+<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">readArray</span><span class="hljs-params">(<span class="hljs-keyword">int</span> A[])</span>
+</span>{
+    <span class="hljs-keyword">int</span> size;
+
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"Enter the size of the array: "</span>);
+    <span class="hljs-built_in">scanf</span>(<span class="hljs-string">"%d"</span>, &amp;size);
+
+    <span class="hljs-keyword">if</span> (size &gt; MAXARRAY_SIZE)
+    {
+        <span class="hljs-built_in">printf</span>(<span class="hljs-string">"Sorry! cannot store that many elements\n"</span>);
+        <span class="hljs-built_in">exit</span>(<span class="hljs-number">0</span>);
+    }
+
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; size; ++i)
+    {
+        <span class="hljs-built_in">printf</span>(<span class="hljs-string">"&gt; "</span>);
+        <span class="hljs-built_in">scanf</span>(<span class="hljs-string">"%d"</span>, &amp;A[i]);
+    }
+
+    <span class="hljs-keyword">return</span> size;
+}
+
+<span class="hljs-comment">/*
+int readArray(int A[])
+{
+    int size = 0;
+    while(scanf("%d", &amp;A[size++]) != EOF);
+
+    return size-1;
+}
+*/</span>
+
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">printArray</span><span class="hljs-params">(<span class="hljs-keyword">int</span> A[], <span class="hljs-keyword">int</span> size)</span>
+</span>{
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"=======\n"</span>);
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; size; ++i)
+    {
+        <span class="hljs-built_in">printf</span>(<span class="hljs-string">"%d\n"</span>, A[i]);
+    }
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"=======\n"</span>);
+}
+
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">bubbleSort</span><span class="hljs-params">(<span class="hljs-keyword">int</span> A[], <span class="hljs-keyword">int</span> size)</span>
+</span>{
+    <span class="hljs-keyword">int</span> temp, swap_count = <span class="hljs-number">0</span>;
+
+    <span class="hljs-keyword">if</span> (size == <span class="hljs-number">1</span>)
+        <span class="hljs-keyword">return</span>;
+
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; size - <span class="hljs-number">1</span>; i = i + <span class="hljs-number">1</span>)
+    {
+        <span class="hljs-keyword">if</span> (A[i] &lt; A[i + <span class="hljs-number">1</span>])
+        {
+            <span class="hljs-keyword">continue</span>;
+        }
+        <span class="hljs-keyword">else</span>
+        {
+            temp = A[i];
+            A[i] = A[i + <span class="hljs-number">1</span>];
+            A[i + <span class="hljs-number">1</span>] = temp;
+            ++swap_count;
+        }
+    }
+
+    <span class="hljs-keyword">if</span> (swap_count &gt; <span class="hljs-number">0</span>)
+        bubbleSort(A, size - <span class="hljs-number">1</span>);
+}
+
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">loop_bubbleSort</span><span class="hljs-params">(<span class="hljs-keyword">int</span> A[], <span class="hljs-keyword">int</span> size)</span>
+</span>{
+    <span class="hljs-keyword">int</span> temp, swap_count = <span class="hljs-number">0</span>;
+
+    <span class="hljs-keyword">while</span> (size &gt; <span class="hljs-number">1</span>)
+    {
+        <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; size - <span class="hljs-number">1</span>; i = i + <span class="hljs-number">1</span>)
+        {
+            <span class="hljs-keyword">if</span> (A[i] &lt; A[i + <span class="hljs-number">1</span>])
+            {
+                <span class="hljs-keyword">continue</span>;
+            }
+            <span class="hljs-keyword">else</span>
+            {
+                temp = A[i];
+                A[i] = A[i + <span class="hljs-number">1</span>];
+                A[i + <span class="hljs-number">1</span>] = temp;
+                ++swap_count;
+            }
+        }
+
+        <span class="hljs-keyword">if</span> (swap_count == <span class="hljs-number">0</span>)
+            <span class="hljs-keyword">break</span>;
+        <span class="hljs-keyword">else</span>
+        {
+            swap_count = <span class="hljs-number">0</span>;
+            size = size - <span class="hljs-number">1</span>;
+        }
+    }
+}
+
+<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span>
+</span>{
+    <span class="hljs-keyword">int</span> size, A[MAXARRAY_SIZE];
+
+    size = readArray(A);
+
+    bubbleSort(A, size);
+    printArray(A, size);
+}</code></pre>
