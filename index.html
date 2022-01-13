@@ -148,7 +148,9 @@
                 </h4>
                 <hr style="border-top: 3px dashed gainsboro;">
                 <h4>
-                    Please read the <a href="https://github.com/bhavberi/IIITH-Resources/blob/main/.github/CONTRIBUTING.md"  rel="author" target="_blank">Contributing Guidelines</a>.
+                    Please read the <a
+                        href="https://github.com/bhavberi/IIITH-Resources/blob/main/.github/CONTRIBUTING.md"
+                        rel="author" target="_blank">Contributing Guidelines</a>.
                 </h4>
                 <hr style="border-top: 3px dashed gainsboro;">
                 <iframe
@@ -203,7 +205,8 @@
             var x = document.getElementById("PDFViewerObject");
             var y = document.getElementById("PDFViewerIFrame");
             x.data = name1;
-            y.src = name2;
+            y.contentWindow.history.replaceState('WhatEverNameYouWant', "", name2);
+            document.getElementById("PDFViewerIFrame").src = name2;
             document.getElementById("PDFViewerDownload").href = name1;
             if (document.getElementById("PDFViewer").style.display === "none") {
                 document.getElementById("PDFViewer").style.display = "block";
