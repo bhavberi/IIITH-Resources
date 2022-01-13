@@ -66,6 +66,8 @@ Course/s Table
 - Don't forget to read the **[Contributing Guidelines Page](./.github/CONTRIBUTING.md)**
 
 #### Hope to see you soon via one of these modes of contribution
+----
+Please visit [IIITH Resources Forum](https://iiith.boards.net/) for our Discussion Forum
 -----
 
 ## Repository Stats :-
