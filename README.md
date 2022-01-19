@@ -29,7 +29,7 @@ These are the resources of our time, so these may or may not be the same for you
 ----
 🚀 [Website UpTime Status Page](./Website-Status.md)
 
-![Maintenance](https://img.shields.io/maintenance/yes/2022?color=success&label=Maintained%20-&style=plastic)
+![Maintenance](https://img.shields.io/maintenance/no/2022?color=yellow&label=Maintenance&style=plastic)
 ![Maintenance Year](https://img.shields.io/badge/Last%20Maintained%20Year-2022-ff69b4)
 
 ----
