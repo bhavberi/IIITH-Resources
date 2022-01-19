@@ -1,3 +1,7 @@
+# This repository have been shifted to a dedicated Organisation Account. Please check [https://github.com/IIITH-Resources](https://github.com/IIITH-Resources) for further updates....
+### Thanks
+-----
+-----
 ``` 
                    ____  ____  ____  _____   __   __
                   |_  _||_  _||_  _||_   _| |  | |  |
